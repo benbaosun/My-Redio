@@ -1,0 +1,5 @@
+com.dmsd.itoo.video.dao.impl
+com.dmsd.itoo.video.dao
+com.dmsd.itoo.video.entity
+com.dmsd.itoo.video.service.impl
+com.dmsd.itoo.video.service

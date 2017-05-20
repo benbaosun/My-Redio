@@ -1,0 +1,48 @@
+.uploadTitle{
+	height:30px;
+	background-color:#21aEEF;
+}
+.uploadTitle h3{
+	line-height:14px;
+	color:#fff;
+	padding:8px 10px;
+}
+h3{
+	font-weight:bold;
+	font-size:14px;
+	display:block;
+	-webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.mainCol .uploadHot{  
+    height: 182px;
+    margin: 0 auto;
+    width: 588px;
+}
+.mainCol :hover{	
+	background-position:0px -1px;
+	border:2px solid #d3d3d3;
+	cursor:pointer;
+}
+.progress.active .bar {
+    animation: 2s linear 0s normal none infinite running progress-bar-stripes;
+}
+.progress .bar {
+    background-color: #0e90d2;
+    background-image: linear-gradient(to bottom, #149bdf, #0480be);
+    background-repeat: repeat-x;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15) inset;
+    box-sizing: border-box;
+    color: #ffffff;
+    float: left;
+    font-size: 12px;
+    height: 100%;
+    text-align: center;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    transition: width 0.6s ease 0s; 
+}
+.test{
+	font-size:20px;
+}

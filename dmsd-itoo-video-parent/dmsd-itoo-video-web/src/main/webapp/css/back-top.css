@@ -1,0 +1,35 @@
+    /*returnTop »Øµ½¶¥²¿*/  
+    p#back-to-top{  
+        position:fixed;
+        z-index:9999;
+        color:#ffffff;   
+        bottom:266px;  
+        right:0px;  
+        align:center;
+    }  
+    p#back-to-top a{  
+        text-align:center;
+        padding-top:2px;
+        text-decoration:none;  
+        cursor:pointer;
+        text-align:center;
+        color:white;  
+        display:block;  
+        width:80px;  
+        height:30px;
+        background-color: #808080;
+        
+    }  
+    p#back-to-top a:hover{  
+    	color:white;
+        background-color:red;  
+    }  
+    p#back-to-top a span{  
+         /*background:transparent url(/css/images/m_03.png) no-repeat -25px -290px;  */
+        border-radius:6px;  
+        display:block;  
+        margin-bottom:5px;  
+    }  
+    #back-to-top a:hover span{  
+         /*background:transparent url(/css/images/m_03.png) no-repeat -25px -290px;  */
+    }  

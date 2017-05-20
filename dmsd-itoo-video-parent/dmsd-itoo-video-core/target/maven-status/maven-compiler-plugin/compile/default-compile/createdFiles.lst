@@ -1,0 +1,8 @@
+com\dmsd\itoo\video\entity\History.class
+com\dmsd\itoo\video\dao\impl\VideoDaoImpl.class
+com\dmsd\itoo\video\entity\Comment.class
+com\dmsd\itoo\video\entity\Video.class
+com\dmsd\itoo\video\dao\VideoDao.class
+com\dmsd\itoo\video\entity\Document.class
+com\dmsd\itoo\video\service\VideoService.class
+com\dmsd\itoo\video\service\impl\VideoServiceImpl.class

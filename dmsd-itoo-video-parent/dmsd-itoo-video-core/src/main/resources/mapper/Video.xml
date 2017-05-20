@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+
+<mapper namespace="com.dmsd.itoo.video.dao.VideoDao">
+	<select id="findRecommended" parameterType="hashmap"  resultType="com.dmsd.itoo.video.dto.Videodto">
+	 select * from tv_video where videoType=#{videoType} and isDelete=0 limit 0,8
+	</select>
+	<select id="findVideoInfobyid" parameterType="String" resultType="com.dmsd.itoo.video.entity.Video">
+		select * from tv_video where id=#{videoID}
+	</select>
+	<select id="findAllColleague" resultType="com.dmsd.itoo.video.dto.ColleagueInfo">
+		SELECT i.InstitutionCode,i.InstitutionName FROM	tb_institution i,tb_nodelevel n WHERE i.nodeLevelId = n.id AND n.nodeDesc = '学院'
+	</select>
+</mapper>
+

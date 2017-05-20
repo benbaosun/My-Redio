@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Build-Time: 20160905113042
+Implementation-Title: dmsd-itoo-easyui
+SCM-Revision: 
+Implementation-Version: 1.0.0-SNAPSHOT
+Implementation-Vendor-Id: com.dmsd
+Built-By: root
+Build-Jdk: 1.7.0_76
+Created-By: Apache Maven 3.2.3
+X-Compile-Source-JDK: 1.7
+X-Compile-Target-JDK: 1.7
+Archiver-Version: Plexus Archiver
+

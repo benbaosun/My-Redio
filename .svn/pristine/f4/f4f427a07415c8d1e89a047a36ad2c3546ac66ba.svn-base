@@ -1,0 +1,74 @@
+.dialog-middle.form-horizontal {
+	font-size: 12px;
+}
+.dialog-middle .control-label {
+	font-size: 16px;
+	padding-top: 8px;
+}
+
+.dialog-middle.form-horizontal .form-group {
+	margin-bottom: 15px;
+}
+
+.dialog-middle.form-horizontal .form-group:last-child {
+	margin-bottom: 0;
+}
+
+.btn-purple {
+	color: #fff;
+	background-color: #897dff;
+}
+
+.green,
+.green a {
+	color: #01ba7b;
+}
+
+.form-horizontal .form-control.login-input-phone,
+.form-horizontal .form-control.login-input-pwd {
+	padding-left: 45px;
+}
+
+.login-input-phone {
+	background: url("images/i-login-phone.png") no-repeat 15px center transparent;
+}
+
+.login-input-pwd {
+	background: url("images/i-login-pwd.png") no-repeat 15px center transparent;
+}
+
+    /*returnTop ªÿµΩ∂•≤ø≤‚ ‘*/  
+    p#back-to-top{  
+        position:fixed;
+        z-index:9999;
+        color:#ffffff;   
+        bottom:266px;  
+        right:0px;  
+        align:center;
+    }  
+    p#back-to-top a{  
+        text-align:center;
+        padding-top:2px;
+        text-decoration:none;  
+        cursor:pointer;
+        text-align:center;
+        color:white;  
+        display:block;  
+        width:80px;  
+        height:30px;
+        background-color: #808080;
+        
+    }  
+    p#back-to-top a:hover{  
+    	color:white;
+        background-color:red;  
+    }  
+    p#back-to-top a span{  
+         /*background:transparent url(/css/images/m_03.png) no-repeat -25px -290px;  */
+        border-radius:6px;  
+        display:block;  
+        margin-bottom:5px;  
+    }  
+    #back-to-top a:hover span{  
+         /*background:transparent url(/css/images/m_03.png) no-repeat -25px -290px;  */
+    }  

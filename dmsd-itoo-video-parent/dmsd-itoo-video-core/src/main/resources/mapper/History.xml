@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+
+<mapper namespace="com.dmsd.itoo.video.dao.HistoryDao">	
+	 <resultMap id="BaseResultMap" type="com.dmsd.itoo.video.entity.History" >    
+	 	<id column="user_ID" property="userID" jdbcType="VARCHAR" />    
+	 	<result column="video_ID" property="videoID" jdbcType="VARCHAR" />    
+	 	<result column="picture_Path" property="picturePath" jdbcType="VARCHAR" />  
+	 </resultMap>
+	<!-- 	删除历史记录 -->
+	<select id="deleteHistoryRecordByid" parameterType="String" resultType="com.dmsd.itoo.video.entity.History">
+		 update tv_history set isDelete='1' where videoID=#{1} and userID=#{0}
+	</select>
+	<!-- 	分页查询历史记录 -->
+	<select id="queryHistoryRecord" parameterType="java.util.Map" resultMap="BaseResultMap">
+		select userID,videoID,picturePath from tv_history where isDelete=0 and userID=#{0} limit #{1},#{2}
+	</select>	 
+	<!-- 	清空历史记录 -->
+	<select id="clearAllHistory" parameterType="String" resultType="com.dmsd.itoo.video.entity.History" >
+		update tv_history set isDelete='1' where userID=#{userID}
+	</select>	
+</mapper> 
+
